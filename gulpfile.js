@@ -63,9 +63,3 @@ gulp.task('build',gulp.parallel(// 打包
     gulp.series('minifyHtml'),
     gulp.series('imagemin')
 ));
-gulp.task('build',gulp.parallel(
-    gulp.series('miniSwip-c','concatCss'),
-    gulp.series('miniSwip-j','uglifyJq'),
-    gulp.series('minifyHtml'),
-    gulp.series('imagemin')
-));

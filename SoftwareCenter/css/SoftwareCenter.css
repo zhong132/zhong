@@ -1,0 +1,70 @@
+
+.z-mainAll{
+    background: url(../img/page_bg_generated_v6b.jpg) no-repeat;
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+    background-position: center top;
+}
+.z-one{
+    height: 100px;
+}
+.z-main{
+    width: 940px;
+    margin: 0 auto;
+}
+.z-main .z-SoftwareCenter-title{
+    font-size: 48px;
+    color: #fff;
+}
+.z-main .z-SoftwareCenter-title2{
+    font-size: 18px;
+    color: #999;
+}
+.swiper-container {
+    width: 940px;
+    height: 330px;
+    background-color: #0f1418;
+    box-shadow: 0 0 5px #000;
+}  
+.swiper-slide img{
+    float: left;
+    width: 237.5px;
+    height: 113px;
+}
+.swiper-wrapper .swiper-slide img:first-child{
+    width: 465px;
+    height: 226px;
+}
+.swiper-slide .z-picbtoom{
+    height: 104px;
+    width: 940px;
+}
+.swiper-slide .z-picbtoom h3{
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+}
+.swiper-slide .z-picbtoom .z-picprice{
+    width: 112px;
+    height: 36px;
+    float: right;
+    margin: 10px;
+    color: #eee;
+}
+.swiper-slide .z-picbtoom .z-picprice p{
+    line-height: 36px;
+    float: right;
+}
+.swiper-slide .z-picbtoom .z-picprice .z-pricepic{
+    width: 70px;
+    font-size: 26px;
+    display: inline-block;
+    padding: 0 5px;
+    color: #a4d007;
+    background: #4c6b22;
+}
+.swiper-button-prev{
+    color: #000;
+}
