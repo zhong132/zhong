@@ -6,8 +6,6 @@ var wcheck=document.querySelector('.w-check');
 var wzc=document.querySelector('.w-zc');
 var wmm=document.querySelector('.w-mm');
 var result = [];
-console.log(wzc);
-console.log(wmm);
 
 
 ipts[0].onblur=function(){
@@ -85,6 +83,12 @@ wbutt.onclick=function(){
     if (!ipts[0].value || !ipts[1].value || !ipts[2].value || !ipts[3].value) {
        wcen.style.display='block';
         wcen.innerHTML='<p>输入不能为空，请正确输入!</p><p>并查看下面突出显示的更多错误。</p>';
+        // var time1=setInterval(function(){
+        //     document.Element.scrollTop=document.Element.scrollTop-100;
+        //     while(document.Element.scrollTop<=0){
+        //         clearInterval(time1);
+        //     }
+        // },1000);
         document.Element.scrollTop=0;
         return false;
     }
@@ -102,7 +106,8 @@ wbutt.onclick=function(){
         document.Element.scrollTop=0;
         return false;
     }
-    
+    wcen.innerHTML='';
+    wcen.style.display='none';
     ajax({
         type:'get',
         url:'./php/login.php',
