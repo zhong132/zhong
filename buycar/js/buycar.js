@@ -1,3 +1,3 @@
 $('.z-removeall').click(function (){
-    $('.buycarmask').css('display','block')
+    $('.z-buycarmask').css('display','block')
 })

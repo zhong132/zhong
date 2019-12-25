@@ -30,21 +30,22 @@
 .swiper-slide img{
     float: left;
     width: 237.5px;
-    height: 113px;
+    height: 133px;
 }
 .swiper-wrapper .swiper-slide img:first-child{
     width: 465px;
-    height: 226px;
+    height: 266px;
 }
 .swiper-slide .z-picbtoom{
-    height: 104px;
+    height: 64px;
     width: 940px;
 }
 .swiper-slide .z-picbtoom h3{
     color: #fff;
+    background-color: #0f1418;
     float: left;
     font-size: 18px;
-    padding: 10px;
+    padding: 10px 100px 0 10px;
 }
 .swiper-slide .z-picbtoom .z-picprice{
     width: 112px;
@@ -65,6 +66,8 @@
     color: #a4d007;
     background: #4c6b22;
 }
-.swiper-button-prev{
-    color: #000;
+.swiper-container .z-left{
+    width: 48px;
+    height: 108px;
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%);
 }
