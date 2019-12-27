@@ -47,7 +47,6 @@ html {
 .c2_wrap .c2_main .c2_line1 .c2_line1_1 .c2_line1_1s {
   position: relative;
   display: block;
-  height: 158px;
 }
 .c2_wrap .c2_main .c2_line1 .c2_line1_1 .c2_line1_1s .c2_line1_1s1 {
   opacity: 0;
@@ -286,7 +285,6 @@ html {
 .c2_wrap .c2_main .c2_line2 .c2_line2_1 .c2_line2_1s {
   position: relative;
   display: block;
-  height: 214px;
 }
 .c2_wrap .c2_main .c2_line2 .c2_line2_1 .c2_line2_1s .c2_line2_1s1 {
   opacity: 0;
@@ -525,7 +523,6 @@ html {
 .c2_wrap .c2_main .c2_line3 .c2_line3_1 .c2_line3_1s {
   position: relative;
   display: block;
-  height: 158px;
 }
 .c2_wrap .c2_main .c2_line3 .c2_line3_1 .c2_line3_1s .c2_line3_1s1 {
   opacity: 0;
@@ -788,7 +785,6 @@ html {
 }
 .c2_lunbo .swiper-container .swiper-slide {
   width: 350px;
-  height: 440px;
   text-align: center;
   background: #fff;
   position: relative;
@@ -811,8 +807,8 @@ html {
   width: 100%;
 }
 .c2_lunbo .swiper-container .swiper-slide .c2_lunbo_logo .franchise_logo {
-  width: 298px;
-  height: 150px;
+  max-width: 298px;
+  max-height: 150px;
   background-size: 100% 100%;
   position: absolute;
   left: 42px;
@@ -820,11 +816,11 @@ html {
   z-index: 5;
 }
 .c2_lunbo .swiper-container .swiper-slide .c2_lunbo_game {
-  width: 320px;
-  height: 200px;
+  max-width: 320px;
+  max-height: 200px;
   position: absolute;
   left: 0;
-  top: 440px;
+  top: 456px;
   z-index: 6;
 }
 .c2_lunbo .swiper-container .swiper-slide .c2_lunbo_game .c2_game1 {
@@ -840,7 +836,6 @@ html {
 .c2_lunbo .swiper-container .swiper-slide .c2_lunbo_game .c2_game1 .c2_line3_1s {
   position: relative;
   display: block;
-  height: 103px;
 }
 .c2_lunbo .swiper-container .swiper-slide .c2_lunbo_game .c2_game1 .c2_line3_1s .c2_line3_1s1 {
   opacity: 0;
